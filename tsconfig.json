@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "lib": ["es2023"],
+    "module": "nodenext",
+    "target": "es2023",
+    "skipLibCheck": true,
+    "outDir": "dist",
+     "moduleResolution": "nodenext", 
+    "verbatimModuleSyntax": true,
+    "types": ["node"]
+  }, 
+  "include": [
+    "./hardhat.config.ts",
+    "./scripts/**/*",
+    "./test/**/*",
+    "./typechain-types/**/*"
+  ]
+}
